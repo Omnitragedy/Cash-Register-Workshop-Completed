@@ -22,4 +22,5 @@ c.Being able to add and rename items in the inventory, creating the new items wh
 d. Possibly even store this data in a text file (Reading and writing to text files: http://www.codejava.net/java-se/file-io/how-to-read-and-write-text-file-in-java)
 
 
-### 3. Format all number values that are displayed to look like dollar values even if the number ends in a 0 (13.0 ->13,00) (Using different decimal formats http://www.tutorialspoint.com/listtutorial/Example-of-Formatting-number-in-Java-with-DecimalFormat/3881)
+### 3. Making it look more consistent
+a. Format all number values that are displayed to look like dollar values even if the number ends in a 0 (13.0 ->13,00) (Using different decimal formats http://www.tutorialspoint.com/listtutorial/Example-of-Formatting-number-in-Java-with-DecimalFormat/3881)
