@@ -157,7 +157,7 @@ public class FXMLDocumentController implements Initializable {
     */
     @FXML
     private void handleDone(ActionEvent event) {
-        //checkValidInput();    //implement to handle any possible errors in user input
+        checkValidInput();    //implement to handle any possible errors in user input
                                 //for example, if the user put in no numbers or invalid characters,
                                 //deal with these errors in a way that does not cause the program to crash
         calcSub();
@@ -175,6 +175,25 @@ public class FXMLDocumentController implements Initializable {
         lblTotal.setText("$" + total);
         inputPayment.setVisible(true);
         handlePayment.setVisible(true);
+    }
+    
+    public void checkValidInput(){
+        double noodleIn = getDouble(inputNoodle.getText());
+        double pizzaIn = getDouble(inputPizza.getText());
+        double wingIn = getDouble(inputWing.getText());
+        double pieIn = getDouble(inputPie.getText());
+        double iceIn = getDouble(inputIce.getText());
+        
+        if (noodleIn < 0 || inputNoodle == null)
+            inputNoodle.setText("0");
+        if (pizzaIn < 0 || inputPizza == null)
+            inputPizza.setText("0");
+        if (wingIn < 0 || inputWing == null)
+            inputWing.setText("0");
+        if (pieIn < 0 || inputPie == null)
+            inputPie.setText("0");
+        if (iceIn < 0 || inputIce == null)
+            inputIce.setText("0");
     }
     
     /*
