@@ -17,7 +17,7 @@ a. Tax rates
 
 b. Giving categories to different types of items (Object-Oriented Programming: goo.gl/zUmXDa)
 
-c.Being able to add and rename items in the inventory, creating the new items when needed while the program is being run, rather than in Scene Builder (Creating Buttons dynamically: http://tutorials.jenkov.com/javafx/button.html)
+c. Being able to add and rename items in the inventory, creating the new items when needed while the program is being run, rather than in Scene Builder (Creating Buttons dynamically: http://tutorials.jenkov.com/javafx/button.html)
 
 d. Possibly even store this data in a text file (Reading and writing to text files: http://www.codejava.net/java-se/file-io/how-to-read-and-write-text-file-in-java)
 
